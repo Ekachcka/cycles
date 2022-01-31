@@ -1,5 +1,31 @@
 let index;
 let sum;
+
+// // 4)
+
+// for (index = false; index ===false;) {
+//     sum=+prompt('for:2+2*2 = ')
+//     if (sum===6) {
+//         index=true;
+//     }
+// }
+// index=false;
+// sum=NaN;
+// while (index===false) {
+//     sum=+prompt('while:2+2*2 = ')
+//     if (sum===6) {
+//         index=true;
+//     }
+// }
+// index=false;
+// sum=NaN;
+// do {
+//     sum=+prompt('doWhile:2+2*2 = ')
+//     if (sum===6) {
+//         index=true;
+//     }
+// }while (index===false);
+
 // 1)
 
 for (index = 25; index >=0; index--) {
@@ -50,27 +76,3 @@ do {
 }while (index<=100);
 console.log(sum);
 
-// 4)
-
-for (index = false; index ===false;) {
-    sum=+prompt('for:2+2*2 = ')
-    if (sum===6) {
-        index=true;
-    }
-}
-index=false;
-sum=NaN;
-while (index===false) {
-    sum=+prompt('while:2+2*2 = ')
-    if (sum===6) {
-        index=true;
-    }
-}
-index=false;
-sum=NaN;
-do {
-    sum=+prompt('doWhile:2+2*2 = ')
-    if (sum===6) {
-        index=true;
-    }
-}while (index===false);
