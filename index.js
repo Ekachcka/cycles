@@ -55,7 +55,8 @@ console.log(sum);
 // 4)
 
 for (index = false; index ===false;) {
-    console.log('for:2+2*2 = sum');
+    console.log('for:2+2*2 = ');
+    sum=+prompt('Введите ответ ')
     if (sum===6) {
         index=true;
     }
@@ -63,7 +64,8 @@ for (index = false; index ===false;) {
 index=false;
 sum=NaN;
 while (index===false) {
-    console.log('while:2+2*2 = sum');
+    console.log('while:2+2*2 = ');
+    sum=+prompt('Введите ответ ')
     if (sum===6) {
         index=true;
     }
@@ -71,7 +73,8 @@ while (index===false) {
 index=false;
 sum=NaN;
 do {
-    console.log('doWhile:2+2*2 = sum');
+    console.log('doWhile:2+2*2 = ');
+    sum=+prompt('Введите ответ ')
     if (sum===6) {
         index=true;
     }
